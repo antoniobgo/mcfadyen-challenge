@@ -1,8 +1,9 @@
 header {
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   height: 60px;
   display: flex;
   justify-content: space-between;
+  background-color: white;
 }
 
 .logo-box {
@@ -30,6 +31,7 @@ header {
 body {
   margin: 0px 0px 0px 0px;
   overflow-x: hidden;
+  background-color: gray;
 }
 
 #myDiv {
@@ -37,21 +39,21 @@ body {
   justify-content: space-between;
 }
 
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+}
+
 .carousel {
-  height: 30vh; 
+  /* display: flex; */
+  height: 30vh;
+  width: 80%; 
   border: 1px solid black;
   margin: 20px 15px 0px 15px;
 }
 
-.carousel-item-box {
-  height: 25vh;
-  width: 300px;
-  border: 1px solid black;
-  margin-top: 10px;
-  margin-left: 10px;
-}
-
-.carousel-item-box img {
+.carousel img {
   width: 100%;
   height: 100%;
 }
@@ -65,10 +67,11 @@ body {
 
 .card-product {
   margin-top: 10px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 8px;
   width: 350px;
   transition: 0.3s;
+  background-color: white;
 }
 
 .card-product:hover {
