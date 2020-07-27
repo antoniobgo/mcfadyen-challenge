@@ -40,6 +40,18 @@ body {
   background-color: #e6e6e6;
 }
 
+.carousel-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.carousel-text h1 {
+  background-color: #cccccc;
+  padding: 30px;
+  border-radius: 8px;
+}
+
 .carousel-container {
   max-width: 1000px;
   position: relative;
