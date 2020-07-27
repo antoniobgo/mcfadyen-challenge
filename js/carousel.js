@@ -1,12 +1,10 @@
 var carouselIndex = 1;
 showCarouselProduct(carouselIndex);
 
-// Next/previous controls
 function changeCarouselProduct(n) {
   showCarouselProduct(carouselIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showCarouselProduct(carouselIndex = n);
 }
