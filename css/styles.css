@@ -156,9 +156,9 @@ button {
 }
 
 .my-footer {
+  background-color: white;
   display: flex;
   justify-content: center;
-  border-top: 1px solid black;
   padding: 20px;
 }
 
