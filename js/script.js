@@ -1,23 +1,23 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+var carouselIndex = 1;
+showCarouselProduct(carouselIndex);
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function changeCarouselProduct(n) {
+  showCarouselProduct(carouselIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showCarouselProduct(carouselIndex = n);
 }
 
-function showSlides(n) {
+function showCarouselProduct(n) {
   var i;
-  var slides = document.getElementsByClassName("carousel-product");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+  var carouselProducts = document.getElementsByClassName("carousel-product");
+  if (n > carouselProducts.length) {carouselIndex = 1}
+  if (n < 1) {carouselIndex = carouselProducts.length}
+  for (i = 0; i < carouselProducts.length; i++) {
+      carouselProducts[i].style.display = "none";
   }
-  slides[slideIndex-1].style.display = "block";
+  carouselProducts[carouselIndex-1].style.display = "block";
 }
