@@ -15,6 +15,7 @@
     <h2>McFadyen Store</h2>
     <div class="cart-box">
       <img class="cart-icon" src="assets/cart-icon.svg"/>
+      <h3 class="cartQuantity">0</h3>
     </div>
   </header>
   <div class="carousel-container">
@@ -40,28 +41,28 @@
     <div class="card-product">
       <img src="assets/backpack.png"/>
       <div class="card-buttons-container">
-        <button type="button">Add to cart</button>
+        <button type="button" onclick="incrementCartQuantity()">Add to cart</button>
         <button type="button">Add to wishlist</button>
       </div>
     </div>
     <div class="card-product">
       <img src="assets/boots.png"/>
       <div class="card-buttons-container">
-        <button type="button">Add to cart</button>
+        <button type="button" onclick="incrementCartQuantity()">Add to cart</button>
         <button type="button">Add to wishlist</button>
       </div>
     </div>
     <div class="card-product">
       <img src="assets/glasses.png"/>
       <div class="card-buttons-container">
-        <button type="button">Add to cart</button>
+        <button type="button" onclick="incrementCartQuantity()">Add to cart</button>
         <button type="button">Add to wishlist</button>
       </div>
     </div>
     <div class="card-product">
       <img src="assets/lamp.png"/>
       <div class="card-buttons-container">
-        <button type="button">Add to cart</button>
+        <button type="button" onclick="incrementCartQuantity()">Add to cart</button>
         <button type="button">Add to wishlist</button>
       </div>
     </div>
@@ -73,7 +74,8 @@
       <a href="#" class="footer-link">ABOUT</a>
     </div>
   </footer>
-  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/carousel.js"></script>
+  <script type="text/javascript" src="js/cartQuantity.js"></script>
   </script>
 </body>
 </html>

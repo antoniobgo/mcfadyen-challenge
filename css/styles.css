@@ -12,14 +12,15 @@ header {
 }
 
 .cart-box {
+  display: flex;
   height: 70%;
-  width: 100px;
+  width: 150px;
 }
 
 .cart-icon {
   cursor: pointer;
   height: 100%;
-  width: 100%;
+  width: 70%;
   margin-top: 8px;
 }
 
