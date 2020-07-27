@@ -6,6 +6,11 @@ header {
   margin-bottom: 20px;
 }
 
+header h2 {
+  display: flex;
+  align-items: center;
+}
+
 .logo-box {
   height: 100%;
   width: 150px;
@@ -59,7 +64,7 @@ body {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 30px;
   border-radius: 0 3px 3px 0;
@@ -71,7 +76,7 @@ body {
 }
 
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 25px;
   font-weight: bold;
   padding: 8px 12px;
@@ -82,7 +87,7 @@ body {
 }
 
 .number-text {
-  color: #f2f2f2;
+  color: black;
   font-size: 25px;
   padding: 8px 12px;
   position: absolute;
